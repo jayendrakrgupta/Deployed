@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Job</title>
+    <link rel="stylesheet" href="mainproject.css">
+</head>
+<body>
+    <div class="addjob-page">
+        <div class="addjob-box">
+            <div class="addjob-container">
+                <div class="addjob-header">
+                    <h1>Add Job Description</h1>
+                </div>
+                <div class="addjob-form">
+                    <form action="">
+                        <div class="addjob-form-group">
+                            <label for="jobtitle" class="formlabel">Job Title</label>
+                            <input type="text" id="jobtitle" class="jobinput-bar" name="jobtitle" placeholder="Enter Job Title">
+                        </div>
+                        <div class="addjob-form-group">
+                            <label for="company" class="formlabel">Company</label>
+                            <input type="text" id="company" class="jobinput-bar" name="company" placeholder="Enter Company Name">
+                        </div>
+                        <div class="addjob-form-group">
+                            <label for="location" class="formlabel">Location</label>
+                            <input type="text" id="location" class="jobinput-bar" name="location" placeholder="Enter Job Location">
+                        </div>
+                        <div class="addjob-form-group">
+                            <label for="stipend" class="formlabel">Stipend</label>
+                            <input type="text" id="stipend" class="jobinput-bar" name="stipend" placeholder="Enter Stipend">
+                        </div>
+                        <div class="addjob-form-group">
+                            <label for="duration" class="formlabel">Duration</label>
+                            <input type="text" id="duration" class="jobinput-bar" name="duration" placeholder="Enter Duration">
+                        </div>
+                        <div class="addjob-form-group">
+                            <label for="aboutjob" class="formlabel">Job Description</label>
+                            <textarea name="aboutjob" class="jobinput-bar" id="aboutjob" cols="40" rows="3" placeholder="Enter About Job"></textarea>
+                        </div>
+                        <div class="addjob-form-group">
+                            <label for="aboutcompany" class="formlabel">About Company</label>
+                            <textarea name="aboutcompany" class="jobinput-bar" id="aboutcompany" cols="40" rows="3" placeholder="Enter About Company"></textarea>
+                        </div>
+                        <div class="addjob-form-group">
+                            <label for="skills" class="formlabel">Skills</label>
+                            <input type="text" id="skills" class="jobinput-bar" name="skills" placeholder="Enter Skills">
+                        </div>
+                    </form>
+                </div>
+                <div class="addjob-button">
+                    <button id="Bigbutton" class="apply" style="font-size: medium;" onclick="window.location.href='mainpagelogin.html'">+ Add Skills</button>
+                    <button id="Bigbutton" class="clear" onclick="window.location.href='mainpagelogin.html'">cancel</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidepngjob">
+            <h2 style="z-index: 2;">Recruiter add job details here</h2>
+        </div>
+    </div>
+</body>
+</html>
